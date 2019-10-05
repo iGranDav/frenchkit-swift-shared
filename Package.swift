@@ -1,15 +1,15 @@
-// swift-tools-version:5.1
+// swift-tools-version:4.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "fk-swift-shared",
+    name: "EventShared",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "fk-swift-shared",
-            targets: ["fk-swift-shared"]),
+            name: "EventShared",
+            targets: ["EventShared"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -19,10 +19,10 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "fk-swift-shared",
+            name: "EventShared",
             dependencies: []),
         .testTarget(
-            name: "fk-swift-sharedTests",
-            dependencies: ["fk-swift-shared"]),
+            name: "EventSharedTests",
+            dependencies: ["EventShared"]),
     ]
 )

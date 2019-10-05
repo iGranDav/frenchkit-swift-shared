@@ -1,3 +1,3 @@
-# fk-swift-shared
+# EventShared
 
 A description of this package.

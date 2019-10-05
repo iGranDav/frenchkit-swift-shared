@@ -1,7 +1,7 @@
 import XCTest
 
-import fk_swift_sharedTests
+import EventSharedTests
 
 var tests = [XCTestCaseEntry]()
-tests += fk_swift_sharedTests.allTests()
+tests += EventSharedTests.allTests()
 XCTMain(tests)
