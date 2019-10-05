@@ -1,3 +1,3 @@
 # EventShared
 
-A description of this package.
+Shared code between server and iOS app in the Events example
