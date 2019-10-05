@@ -1,6 +1,6 @@
 import Foundation
 
-struct Talk: Codable {
+public struct Talk: Codable {
 
   var id: UUID?
 
@@ -13,7 +13,7 @@ struct Talk: Codable {
   var dateCreated: Date?
   var dateModified: Date?
 
-  init(id: UUID? = nil, title: String) {
+  public init(id: UUID? = nil, title: String) {
     self.id = id
     self.title = title
   }
