@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "EventShared"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.summary = "Library for events code shared across platforms"
   s.description  = <<-DESC
     iOS Podspec for Events sharing between iOS and Server
